@@ -1,41 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>PizzaWeb - Resto Website Design by Tofique Khan</title>
-  <meta name="description" content="Welcome to our food website, where we bring you the best recipes, cooking techniques, and culinary inspiration from around the world. From quick and easy meals to gourmet delights, we've got you covered.">
-  <meta name="keywords" content="PizzaWeb Website, food website design, restorent website, tofique kahn web designer">
+  <title>PizzaWeb - Site de Restaurante por Tofique Khan</title>
+  <meta name="description" content="Bem-vindo ao nosso site de comida, onde trazemos as melhores receitas, técnicas culinárias e inspiração gastronômica de todo o mundo. De refeições rápidas a delícias gourmet, temos tudo para você.">
+  <meta name="keywords" content="PizzaWeb, site de comida, site de restaurante, Tofique Khan designer web">
 
   <!-- OG Tags -->
   <meta property="og:type" content="website">
-  <meta property="og:locale" content="en_IN">
+  <meta property="og:locale" content="pt_BR">
   <meta property="og:site_name" content="PizzaWeb">
-  <meta property="og:title" content="PizzaWeb - Resto Website Design by Tofique Khan">
-  <meta property="og:description" content="PizzaWeb Website is Designed by Tofique Khan">
-  <meta property="og:url" content="https://tkwebdesigner.github.io/pizzaweb/">
-
-  <!-- Twitter Card -->
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="en_IN">
-  <meta property="og:site_name" content="PizzaWeb">
-  <meta property="og:title" content="PizzaWeb - Resto Website Design by Tofique Khan">
-  <meta property="og:description" content="PizzaWeb Website is Designed by Tofique Khan">
+  <meta property="og:title" content="PizzaWeb - Site de Restaurante por Tofique Khan">
+  <meta property="og:description" content="O site PizzaWeb foi desenvolvido por Tofique Khan">
   <meta property="og:url" content="https://tkwebdesigner.github.io/pizzaweb/">
 
   <!-- FAVICON -->
   <link rel="icon" type="image/png" href="assets/images/logo.webp">
 
-  <!-- Bootstrap CSS File -->
+  <!-- Bootstrap CSS -->
   <link rel="preload" as="style" href="assets/plugins/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
 
-  <!-- Font Awesome CSS File -->
+  <!-- Font Awesome -->
   <link rel="preload" as="style" href="assets/plugins/fontawesome/css/all.min.css">
   <link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
 
-  <!-- Custom CSS Files -->
+  <!-- Estilos personalizados -->
   <link rel="preload" as="style" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="preload" as="style" href="assets/css/responsive-style.css">
@@ -43,52 +35,40 @@
 </head>
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
 
-  <!-- header design -->
+  <!-- Cabeçalho -->
   <header>
     <nav class="navbar navbar-expand-lg navigation-wrap">
       <div class="container">
         <a class="navbar-brand" href="index.html">
-          <img src="assets/images/logo.webp" class="img-fluid" alt="header top logo" title="PizzaWeb" width="75" height="75">
+          <img src="assets/images/logo.webp" class="img-fluid" alt="Logo PizzaWeb" title="PizzaWeb" width="75" height="75">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <!-- <span class="navbar-toggler-icon"></span> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
           <i class="fas fa-stream" onclick="changeIcon(this)"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#explore-food">Explore Foods</a>
-            </li> 
-            <li class="nav-item">
-              <a class="nav-link" href="#testimonial">Reviews</a>
-            </li> 
-            <li>
-              <a class="main-btn" href="tel:1200345123">1200 345 123</a>
-            </li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#home">Início</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">Sobre Nós</a></li>
+            <li class="nav-item"><a class="nav-link" href="#explore-food">Explorar Comidas</a></li> 
+            <li class="nav-item"><a class="nav-link" href="#testimonial">Depoimentos</a></li> 
+            <li><a class="main-btn" href="tel:1200345123">1200 345 123</a></li>
           </ul>
         </div>
       </div>
     </nav>
   </header> 
 
-
-  <!-- section-1 top-banner --> 
+  <!-- Banner principal -->
   <section id="home">
     <div class="container-fluid px-0 top-banner">
       <div class="container">
         <div class="row">
           <div class="col-lg-5 col-md-6">
-            <h1>UNLIMITED <br> MEDIUM <span>PIZZAS</span></h1>
-            <h2 class="fs-32">Medium 2-topping* pizza</h2>
-            <p>*Additional charge for premium toppings. Minimum of 2 required.</p>
+            <h1>PIZZAS <br> MÉDIAS <span>ILIMITADAS</span></h1>
+            <h2 class="fs-32">Pizza média com 2 coberturas*</h2>
+            <p>*Coberturas premium têm custo adicional. Mínimo de 2 requerido.</p>
             <div class="mt-4">
-              <button type="button" class="main-btn">Order now <i class="fa-solid fa-shopping-basket ps-3"></i></button>
+              <button type="button" class="main-btn">Peça agora <i class="fa-solid fa-shopping-basket ps-3"></i></button>
             </div>
           </div>
         </div>
@@ -96,228 +76,104 @@
     </div>
   </section>
 
-
-  <!-- section-2 our-menu --> 
+  <!-- Cardápio -->
   <section class="our-menu p-4">
     <div class="container text-center">
-      <h2 class="pb-4 fs-32">Our Menu</h2>
+      <h2 class="pb-4 fs-32">Nosso Cardápio</h2>
       <div class="row align-items-center">
         <div class="col-6 col-sm-2 mb-4 mb-lg-0">
-          <div class="card">
-            <div class="cat-image">
-              <a class="link_category_product" href="#">
-                <img src="assets/images/img/category1.webp" data-src="assets/images/img/category1.webp" class="img-fluid lazy" loading="lazy" alt="Pizza" title="Pizza" width="115" height="85">
-              </a>
-            </div>
-            <div class="cat-title">
-              <a href="#">Pizza</a>
-            </div>
-          </div>
+          <div class="card"><div class="cat-image"><a href="#"><img src="assets/images/img/category1.webp" class="img-fluid lazy" alt="Pizza"></a></div><div class="cat-title"><a href="#">Pizza</a></div></div>
         </div>
-
         <div class="col-6 col-sm-2 mb-4 mb-lg-0">
-          <div class="card">
-            <div class="cat-image">
-              <a class="link_category_product" href="#">
-                <img src="assets/images/img/category2.webp" data-src="assets/images/img/category2.webp" class="img-fluid lazy" loading="lazy" alt="Sauces" title="Sauces" width="115" height="85">
-              </a>
-            </div>
-            <div class="cat-title">
-              <a href="#">Sauces</a>
-            </div>
-          </div>
+          <div class="card"><div class="cat-image"><a href="#"><img src="assets/images/img/category2.webp" class="img-fluid lazy" alt="Molhos"></a></div><div class="cat-title"><a href="#">Molhos</a></div></div>
         </div>
-
         <div class="col-6 col-sm-2 mb-4 mb-lg-0">
-          <div class="card">
-            <div class="cat-image">
-              <a class="link_category_product" href="#">
-                <img src="assets/images/img/category3.webp" data-src="assets/images/img/category3.webp" class="img-fluid lazy" loading="lazy" alt="Combo" title="Combo" width="108" height="85">
-              </a>
-            </div>
-            <div class="cat-title">
-              <a href="#">Combo</a>
-            </div>
-          </div>
+          <div class="card"><div class="cat-image"><a href="#"><img src="assets/images/img/category3.webp" class="img-fluid lazy" alt="Combos"></a></div><div class="cat-title"><a href="#">Combos</a></div></div>
         </div>
-
         <div class="col-6 col-sm-2 mb-4 mb-lg-0">
-          <div class="card">
-            <div class="cat-image">
-              <a class="link_category_product" href="#">
-                <img src="assets/images/img/category4.webp" data-src="assets/images/img/category4.webp" class="img-fluid lazy" loading="lazy" alt="Kids Menu" title="Kids Menu" width="121" height="81">
-              </a>
-            </div>
-            <div class="cat-title">
-              <a href="#">Kids Menus</a>
-            </div>
-          </div>
+          <div class="card"><div class="cat-image"><a href="#"><img src="assets/images/img/category4.webp" class="img-fluid lazy" alt="Menu Infantil"></a></div><div class="cat-title"><a href="#">Menu Infantil</a></div></div>
         </div>
-
         <div class="col-6 col-sm-2 mb-4 mb-lg-0">
-          <div class="card">
-            <div class="cat-image">
-              <a class="link_category_product" href="#">
-                <img src="assets/images/img/category5.webp" data-src="assets/images/img/category5.webp" class="img-fluid lazy" loading="lazy" alt="Chicken" title="Chicken" width="106" height="71">
-              </a>
-            </div>
-            <div class="cat-title">
-              <a href="#">Chicken</a>
-            </div>
-          </div>
+          <div class="card"><div class="cat-image"><a href="#"><img src="assets/images/img/category5.webp" class="img-fluid lazy" alt="Frango"></a></div><div class="cat-title"><a href="#">Frango</a></div></div>
         </div>
-
         <div class="col-6 col-sm-2 mb-4 mb-lg-0">
-          <div class="card">
-            <div class="cat-image">
-              <a class="link_category_product" href="#">
-                <img src="assets/images/img/category6.webp" data-src="assets/images/img/category6.webp" class="img-fluid lazy" loading="lazy" alt="Box Meals" title="Box Meals" width="100" height="71">
-              </a>
-            </div>
-            <div class="cat-title">
-              <a href="#">Box Meals</a>
-            </div>
-          </div>
+          <div class="card"><div class="cat-image"><a href="#"><img src="assets/images/img/category6.webp" class="img-fluid lazy" alt="Refeições na Caixa"></a></div><div class="cat-title"><a href="#">Refeições na Caixa</a></div></div>
         </div>
       </div>
     </div>
   </section>
 
-
-  <!-- section-3 about--> 
+  <!-- Sobre nós -->
   <section id="about">
     <div class="about-section wrapper">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-7 col-md-12 mb-lg-0 mb-5">
-            <div class="card border-0">
-              <img src="assets/images/img/img-1.webp" data-src="assets/images/img/img-1.webp" class="img-fluid lazy" loading="lazy" alt="We pride ourselves on making real food from the best ingredients." title="We pride ourselves on making real food from the best ingredients." width="2121" height="1414">
-            </div>
+            <div class="card border-0"><img src="assets/images/img/img-1.webp" class="img-fluid lazy" alt="Comida artesanal com os melhores ingredientes."></div>
           </div>
           <div class="col-lg-5 col-md-12 text-sec">
-            <h3>We pride ourselves on making real food from the best ingredients.</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum in sit
-              amet leo. Mauris feugiat erat tellus.
-            </p>
-            <button class="main-btn mt-4">Learn More</button>
+            <h3>Nos orgulhamos de fazer comida de verdade com os melhores ingredientes.</h3>
+            <p>Comida feita com carinho e atenção, usando ingredientes selecionados e frescos.</p>
+            <button class="main-btn mt-4">Saiba Mais</button>
           </div>
         </div>
       </div>
       <div class="container food-type">
         <div class="row align-items-center">
           <div class="col-lg-5 col-md-12 text-sec mb-lg-0 mb-5">
-            <h3>We make everything by hand with the best possible ingredients.</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum in sit
-              amet leo. Mauris feugiat erat tellus.Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts.
-            </p>
+            <h3>Fazemos tudo à mão com os melhores ingredientes possíveis.</h3>
+            <p>Comida de verdade, feita do zero. Ingredientes de qualidade, processos artesanais e muito sabor.</p>
             <ul class="list-unstyled py-3">
-              <li>Etiam sed dolor ac diam volutpat.</li>
-              <li>Erat volutpat aliquet imperdiet.</li>
-              <li>purus a odio finibus bibendum.</li>
+              <li>Ingredientes frescos e selecionados.</li>
+              <li>Receitas artesanais.</li>
+              <li>Atendimento com excelência.</li>
             </ul>
-            <button class="main-btn mt-4">Learn More</button>
+            <button class="main-btn mt-4">Saiba Mais</button>
           </div>
           <div class="col-lg-7 col-md-12">
-            <div class="card border-0">
-              <img src="assets/images/img/img-2.webp" data-src="assets/images/img/img-2.webp" class="img-fluid lazy" loading="lazy" alt="We make everything by hand with the best possible ingredients." title="We make everything by hand with the best possible ingredients." width="800" height="800">
-            </div>
+            <div class="card border-0"><img src="assets/images/img/img-2.webp" class="img-fluid lazy" alt="Ingredientes selecionados à mão."></div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-
-  <!-- section-4 explore food--> 
+  <!-- Explorar comidas -->
   <section id="explore-food">
     <div class="explore-food wrapper">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="text-content text-center">
-              <h3 class="fs-32">Explore Our Foods</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum in sit
-                amet leo. Mauris feugiat erat tellus. Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
-            </div>
-          </div>
+        <div class="text-content text-center">
+          <h3 class="fs-32">Explore Nossos Pratos</h3>
+          <p>Sabores únicos preparados com dedicação e criatividade. Descubra novas experiências gastronômicas.</p>
         </div>
         <div class="row pt-5">
           <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
             <div class="card">
-              <div class="card_image">
-                <a href="#">
-                  <img src="assets/images/img/img-3.webp" data-src="assets/images/img/img-3.webp" class="card-img-top img-fluid lazy" loading="lazy" alt="explore food image 1" title="10 Reasons To Do A Digital Detox Challenge" width="500" height="330">
-                </a>
-              </div>
+              <div class="card_image"><a href="#"><img src="assets/images/img/img-3.webp" class="card-img-top img-fluid lazy" alt=""></a></div>
               <div class="card-body">
-                <div class="card-title">
-                  <a href="#">
-                    <h4>10 Reasons To Do A Digital Detox Challenge</h4>
-                  </a>
-                </div>
-                <div class="card-text">
-                  <p>
-                    Ac haca ullamcorper donec ante habi tasse donec imperdiet eturpis varius per a augue magna hac. Nec
-                    hac…
-                  </p>
-                </div>
-                <div class="card_bottom">
-                  <a class="main-btn" href="#">Read Now</a>
-                </div>
+                <h4>10 Razões para Fazer um Detox Digital</h4>
+                <p>Descubra como pequenas pausas tecnológicas podem transformar sua rotina e seu bem-estar.</p>
+                <a class="main-btn" href="#">Leia Agora</a>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
             <div class="card">
-              <div class="card_image">
-                <a href="#">
-                  <img src="assets/images/img/img-4.webp" data-src="assets/images/img/img-4.webp" class="card-img-top img-fluid lazy" loading="lazy" alt="explore food image 2" title="The Ultimate Hangover Burger: Egg in a Hole Burger Grilled Cheese" width="500" height="330">
-                </a>
-              </div>
+              <div class="card_image"><a href="#"><img src="assets/images/img/img-4.webp" class="card-img-top img-fluid lazy" alt=""></a></div>
               <div class="card-body">
-                <div class="card-title">
-                  <a href="#">
-                    <h4>The Ultimate Hangover Burger: Egg in a Hole Burger Grilled Cheese</h4>
-                  </a>
-                </div>
-                <div class="card-text">
-                  <p>
-                    Ac haca ullamcorper donec ante habi tasse donec imperdiet eturpis varius per a augue magna hac. Nec
-                    hac…
-                  </p>
-                </div>
-                <div class="card_bottom">
-                  <a class="main-btn" href="#">Read Now</a>
-                </div>
+                <h4>O Melhor Hambúrguer para Ressaca</h4>
+                <p>Hambúrguer com ovo e queijo grelhado para recuperar as energias com muito sabor.</p>
+                <a class="main-btn" href="#">Leia Agora</a>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
             <div class="card">
-              <div class="card_image">
-                <a href="#">
-                  <img src="assets/images/img/img-5.webp" data-src="assets/images/img/img-5.webp" class="card-img-top img-fluid lazy" loading="lazy" alt="explore food image 3" title="Traditional Soft Pretzels with Sweet Beer Cheese" width="500" height="330">
-                </a>
-              </div>
+              <div class="card_image"><a href="#"><img src="assets/images/img/img-5.webp" class="card-img-top img-fluid lazy" alt=""></a></div>
               <div class="card-body">
-                <div class="card-title">
-                  <a href="#">
-                    <h4>Traditional Soft Pretzels with Sweet Beer Cheese</h4>
-                  </a>
-                </div>
-                <div class="card-text">
-                  <p>
-                    Ac haca ullamcorper donec ante habi tasse donec imperdiet eturpis varius per a augue magna hac. Nec
-                    hac…
-                  </p>
-                </div>
-                <div class="card_bottom">
-                  <a class="main-btn" href="#">Read Now</a>
-                </div>
+                <h4>Pretzels Tradicionais com Queijo de Cerveja Doce</h4>
+                <p>Receita clássica reinventada com toque especial no sabor e na textura.</p>
+                <a class="main-btn" href="#">Leia Agora</a>
               </div>
             </div>
           </div>
@@ -326,50 +182,33 @@
     </div>
   </section>
 
-
-  <!-- Section-5 testimonial--> 
+  <!-- Depoimentos -->
   <section id="testimonial">
     <div class="wrapper testimonial-section">
       <div class="container text-center">
-        <div class="text-center">
-          <h4 class="fs-32">Testimonial</h4>
-        </div>
+        <h4 class="fs-32">Depoimentos</h4>
         <div class="row">
           <div class="col-sm-12 col-lg-10 offset-lg-1">
             <div id="testimonialsCarousel" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="0" class="active"
-                  aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="1"
-                  aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="2"
-                  aria-label="Slide 3"></button>
-              </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <div class="carousel-caption">
-                    <img src="assets/images/review/review-1.webp" data-src="assets/images/review/review-1.webp" class="img-fluid lazy" loading="lazy" alt="testimonial review image 1" title="Testimonial Review 1" width="431" height="453">
-                    <p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
-                      live the blind texts."</p>
-                    <h5>Johnthan Doe - UX Designer</h5>
+                    <img src="assets/images/review/review-1.webp" class="img-fluid lazy" alt="">
+                    <p>"Muito longe, além das montanhas de palavras, vivem os textos cegos."</p>
+                    <h5>Johnthan Doe - Designer UX</h5>
                   </div>
                 </div>
                 <div class="carousel-item">
                   <div class="carousel-caption">
-                    <img src="assets/images/review/review-2.webp" data-src="assets/images/review/review-2.webp" class="img-fluid lazy" loading="lazy" alt="testimonial review image 2" title="Testimonial Review 2" width="431" height="453">
-                    <p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
-                      live the blind texts."</p>
-                    <h5>Maccy Doe - Front End</h5>
+                    <img src="assets/images/review/review-2.webp" class="img-fluid lazy" alt="">
+                    <p>"Muito longe, além das montanhas de palavras, vivem os textos cegos."</p>
+                    <h5>Maccy Doe - Desenvolvedor Front-end</h5>
                   </div>
                 </div>
-                <div class="carousel-item">
-                  <div class="carousel-caption">
-                    <img src="assets/images/review/review-1.webp" data-src="assets/images/review/review-1.webp" class="img-fluid lazy" loading="lazy" alt="testimonial review image 3" title="Testimonial Review 3" width="431" height="453">
-                    <p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
-                      live the blind texts."</p>
-                    <h5>Johnthan Doe - UX Designer</h5>
-                  </div>
-                </div>
+              </div>
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="1"></button>
               </div>
             </div>
           </div>
@@ -378,38 +217,37 @@
     </div>
   </section>
 
-
-  <!-- section-6 footer--> 
+  <!-- Rodapé -->
   <footer id="footer">
     <div class="footer">
       <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <div class="footer-social">
-                  <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-                  <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
-                  <a href="#" title="Youtube"><i class="fab fa-youtube"></i></a>
-                  <a href="#" title="Dribbble"><i class="fab fa-dribbble"></i></a>
-                  <a href="#" title="Linkedin"><i class="fab fa-linkedin"></i></a>
-                  <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>  
-            <div class="col-md-6">
-              <div class="newsletter">
-                <form>
-                  <div class="d-flex">
-                    <input class="form-control" placeholder="Email Address Here" type="email">
-                    <button class="main-btn" type="submit">Subscribe</button>
-                  </div>
-                </form>
-              </div>
+          <div class="col-md-6">
+            <div class="footer-social">
+              <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" title="Youtube"><i class="fab fa-youtube"></i></a>
+              <a href="#" title="Dribbble"><i class="fab fa-dribbble"></i></a>
+              <a href="#" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+              <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
             </div>
+          </div>  
+          <div class="col-md-6">
+            <div class="newsletter">
+              <form>
+                <div class="d-flex">
+                  <input class="form-control" placeholder="Digite seu e-mail aqui" type="email">
+                  <button class="main-btn" type="submit">Inscrever-se</button>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
         <div class="row">
           <div class="col-sm-12">
             <div class="footer-copy">
               <div class="copyright text-center pt-5">
-                <p class="text-light">© 2023 PIZZA | All Rights Reserved by <a href="https://tofiquekhan688.blogspot.com" title="Tofique Khan">Tofique Khan</a></p>
+                <p class="text-light">© 2023 PIZZA | Todos os direitos reservados por <a href="https://tofiquekhan688.blogspot.com">Tofique Khan</a></p>
               </div>
             </div>
           </div>
@@ -418,18 +256,15 @@
     </div>
   </footer>
 
-  <!-- Back to Top -->
+  <!-- Voltar ao topo -->
   <div>
-    <a title="Back to Top" href="#backtoTop" class="shadow" id="btnUp"></a>
+    <a title="Voltar ao topo" href="#backtoTop" class="shadow" id="btnUp"></a>
   </div>
 
-  <!-- Jquery JS Link -->
+  <!-- Scripts -->
   <script src="assets/plugins/jquery/js/jquery.min.js"></script>
-  <!-- JS Bootstrap Libraries -->
   <script defer src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <!-- Jquery Lazyload  -->
   <script defer src="assets/plugins/jquery-lazyload/js/jquery.lazyload.min.js"></script>
-  <!-- Custom JS File Link -->
   <script defer src="assets/js/main.js"></script>
 </body>
 </html>
